@@ -1,0 +1,11 @@
+Refer to Wikipedia for detail on fixed odds betting.
+https://en.wikipedia.org/wiki/Fixed-odds_betting
+
+Specifications:
+1. Developed using Redhat Linux 6.3, Perl 5.10
+2. Used Moose perl (for using advance perl oops technique)
+3. Perl module dependencies : Moose and Test::Harness
+4. bin contains 2 files
+       bin/auto_test.sh => invokes test scripts in ./t/
+       bin/man_test.pl  => a sample perl client for OddsConverter.pm
+5. Perl doc included for OddsConverter
